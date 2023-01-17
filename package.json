@@ -1,0 +1,22 @@
+{
+    "name": "recibimientoscab",
+    "version": "1.0.0",
+    "description": "pagina de aportes",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sponceee/recibimientoscab.git"
+    },
+    "author": "f-scienza sponceee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sponceee/recibimientoscab/issues"
+    },
+    "homepage": "https://github.com/sponceee/recibimientoscab#readme",
+    "dependencies": {
+        "slick-carousel": "^1.8.1"
+    }
+}
