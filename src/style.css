@@ -3,6 +3,7 @@
 * {
     text-decoration: none;
     list-style: none;
+    
 }
 
 [href]{
@@ -326,7 +327,7 @@ html{
    
     position: absolute;
     top:  40vh;
-    right: 600px;
+    right: 75vh;
     border-style: ridge;
     border-color:  #f7f6f0;
     border-width: 3px;
@@ -440,7 +441,7 @@ html{
             right: auto;
             border-style: none;
             text-align: center;
-            padding: 20px;
+            
         }
 
         
