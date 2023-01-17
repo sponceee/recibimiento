@@ -62,7 +62,7 @@ html{
 .nav-btn {
     width: 200px;
     height: 24px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     font-weight: 300;
     border: none;
     border-radius: 5px;
@@ -322,7 +322,8 @@ html{
 } 
 
 .butt{
-  
+    
+   
     position: absolute;
     top:  40vh;
     right: 600px;
@@ -337,8 +338,11 @@ html{
 }
 
 .butt h1{
-    -webkit-text-stroke: 1px white;
-    color: transparent; 
+    /*-webkit-text-stroke: 1px white;
+    color: transparent;  a chekear no mg mucho ahre */
+    color:antiquewhite;
+    font-family:'Manrope', sans-serif; 
+    font-weight: bold;
 }
 
 #cards{
@@ -430,9 +434,19 @@ html{
     @media (max-width: 768px){
 
         .butt{
+
+
+            width: 100%;
             right: auto;
+            border-style: none;
+            text-align: center;
         }
+
+        
        
+        .redes{
+            width: auto;
+        }
         .about1{
             padding: 20px;
             
@@ -444,8 +458,8 @@ html{
 
         .about2{
 
-            height: 730px;
-       
+            height: auto;
+            padding: 20px;       
         }
         .galeria{
 
@@ -465,6 +479,7 @@ html{
         .social{
             height: 200px;
         }
-
-
     }
+
+
+    
