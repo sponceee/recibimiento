@@ -424,15 +424,38 @@ html{
         .butt{
             right: 0px;
         }
-
+       
         .about1{
             padding: 20px;
+            
+        }
+
+        .info{
+            height:700px;
+        }
+
+        .about2{
+
+            height: 700px;
         }
         .galeria{
 
-            height: 100%;
+            height: 500px;
         }
+
+        .galeria h2{
+
+            font-size:25px;
+        }
+
         
         .carousel {
-            width: 95%;}
+            width: 95%;
+        }
+
+        .social{
+            height: 200px;
+        }
+
+
     }
