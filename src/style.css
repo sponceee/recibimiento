@@ -301,17 +301,27 @@ html{
     /*clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);*/
 }
 
-.galeria h1{
+.galeria h2{
 
     font-size: 50px;
+    font-family: 'Manrope', sans-serif;
 }
+
 .carousel{
 
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 85px;
+   
 }
+
+
+
+.w-100{
+
+    border-radius: 1%;
+} 
 
 .butt{
   
