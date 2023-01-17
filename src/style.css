@@ -432,7 +432,7 @@ html{
     @media (max-width: 768px){
 
         .butt{
-            right: 0px;
+            right: auto;
         }
        
         .about1{
@@ -441,12 +441,13 @@ html{
         }
 
         .info{
-            height:700px;
+            height:750px;
         }
 
         .about2{
 
-            height: 700px;
+            height: 730px;
+       
         }
         .galeria{
 
