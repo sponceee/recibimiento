@@ -91,8 +91,6 @@ html{
 
 .video{
     height: 92vh;
-    background-image: url(./fondo.jpg); /*esto hay que borrar es solo p no poner video, con
-    video solo queda el vh*/
     background-size: cover;
 }
 
