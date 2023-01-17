@@ -340,7 +340,7 @@ html{
 .butt h1{
     /*-webkit-text-stroke: 1px white;
     color: transparent;  a chekear no mg mucho ahre */
-    color:antiquewhite;
+    color:white;
     font-family:'Manrope', sans-serif; 
     font-weight: bold;
 }
@@ -440,6 +440,7 @@ html{
             right: auto;
             border-style: none;
             text-align: center;
+            padding: 20px;
         }
 
         
@@ -483,3 +484,4 @@ html{
 
 
     
+  
