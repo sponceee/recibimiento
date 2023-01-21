@@ -293,16 +293,16 @@ html {
 	transition: filter 300ms ease-out, transform 300ms ease-out;
 }
 .card__bg-image1 {
-	background-image: url(/src/img/banderacab.jpg);
+	background-image: url(./src/img/banderacab.jpg);
 }
 .card__bg-image2 {
-	background-image: url(/src/img/banderon.jpg);
+	background-image: url(./src/img/banderon.jpg);
 }
 .card__bg-image3 {
-	background-image: url(/src/img/alberdi.jpg);
+	background-image: url(./src/img/alberdi.jpg);
 }
 .card__bg-image4 {
-	background-image: url(/src/img/tirante.jpg);
+	background-image: url(./src/img/tirante.jpg);
 }
 .card-a:hover .card__background {
 	transform: scale(1.05) translateZ(0);
