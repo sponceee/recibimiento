@@ -271,38 +271,28 @@ html {
 	list-style: none;
 	position: relative;
 	background-color: #59a5d8;
+	overflow: hidden;
 }
 .card-a:before {
 	content: '';
 	display: block;
 	padding-bottom: 150%;
-	width: 100%;
+	height: 500px;
+	overflow: hidden;
 }
 .card__background {
-	background-size: cover;
-	background-position: center;
+	height: 100%;
+	object-fit: cover;
 	border-radius: 4px;
 	bottom: 0;
 	filter: brightness(0.75) saturate(1.2) contrast(0.85); 
-	left: 0;
 	position: absolute;
+	left: 0;
 	right: 0;
 	top: 0;
 	transform-origin: center;
 	transform: scale(1) translateZ(0);
 	transition: filter 300ms ease-out, transform 300ms ease-out;
-}
-.card__bg-image1 {
-	background-image: url(./src/img/banderacab.jpg);
-}
-.card__bg-image2 {
-	background-image: url(./src/img/banderon.jpg);
-}
-.card__bg-image3 {
-	background-image: url(./src/img/alberdi.jpg);
-}
-.card__bg-image4 {
-	background-image: url(./src/img/tirante.jpg);
 }
 .card-a:hover .card__background {
 	transform: scale(1.05) translateZ(0);
